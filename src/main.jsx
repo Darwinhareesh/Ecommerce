@@ -10,7 +10,7 @@ import { Home } from './home.jsx';
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <AuthContextProvider>
-    <Home />
+    <App />
     </AuthContextProvider>
   </StrictMode>,
 )
