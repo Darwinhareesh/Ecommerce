@@ -2,11 +2,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: Arial, sans-serif;
-<<<<<<< HEAD
   background: linear-gradient(135deg, #d9d9d9 0%, #6366f1 100%);
-=======
-  background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
->>>>>>> e2738a9ca82da11772fef35ce9375c4874e39e91
   display: flex;
   justify-content: center;
   align-items: center;
