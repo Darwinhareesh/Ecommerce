@@ -10,7 +10,11 @@ import { Home } from './home.jsx';
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <AuthContextProvider>
+<<<<<<< HEAD
     <App />
+=======
+    <Home />
+>>>>>>> e2738a9ca82da11772fef35ce9375c4874e39e91
     </AuthContextProvider>
   </StrictMode>,
 )
