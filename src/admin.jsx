@@ -13,7 +13,7 @@ function Admin() {
 
   const fetchProducts = () => {
     axios
-      .get("http://localhost:8000/api/products/")
+      .get("https://fsd-python-eemr.onrender.com/api/products/")
       .then((response) => {
         setProducts(response.data);
       })
@@ -39,7 +39,7 @@ function Admin() {
     };
 
     axios
-      .post("http://localhost:8000/api/add/", newProduct)
+      .post("https://fsd-python-eemr.onrender.com/api/add/", newProduct)
       .then(() => {
         fetchProducts();
         setProductName("");
